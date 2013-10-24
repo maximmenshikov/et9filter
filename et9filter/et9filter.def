@@ -1,0 +1,22 @@
+LIBRARY	"et9filter"
+;DESCRIPTION  'ET9Filter Windows CE Dynamic Link Library'
+EXPORTS
+	ImeEnumRegisterWord=eT9ime.ImeEnumRegisterWord
+	ImeDestroy=eT9ime.ImeDestroy
+	ImeConversionList=eT9ime.ImeConversionList
+	ImeInquire=eT9ime.ImeInquire
+	ImeSetCompositionString=eT9ime.ImeSetCompositionString
+	ImeUi_WndProc=eT9ime.ImeUi_WndProc
+	GetVersion=eT9ime.GetVersion
+	ImeConfigure=eT9ime.ImeConfigure
+	ImeEscape=eT9ime.ImeEscape
+	ImeGetImeMenuItems=eT9ime.ImeGetImeMenuItems
+	ImeGetRegisterWordStyle=eT9ime.ImeGetRegisterWordStyle
+	ImeProcessKey
+	ImeRegisterWord=eT9ime.ImeRegisterWord
+	ImeSelect=eT9ime.ImeSelect
+	ImeSetActiveContext=eT9ime.ImeSetActiveContext
+	ImeToAsciiEx
+	ImeUnregisterWord=eT9ime.ImeUnregisterWord
+	NotifyIME=eT9ime.NotifyIME
+
